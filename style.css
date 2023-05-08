@@ -1,0 +1,149 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background: #ffdddd;
+    color:#516f62;
+}
+
+
+
+/*nav bar*/
+nav{
+    display: flex;
+    background: #fbbec6;
+}
+.header{
+    flex-basis: 85%;
+    text-align: center;
+    padding:10px;
+}
+.nav-items{
+    padding:10px;
+    display: inline-block;
+}
+.nav-items a h3{
+    display: inline-block;
+    padding: 5px;
+    color:#516f62;
+    transition: border-bottom 1s;
+}
+.nav-items a h3:hover{
+    border-bottom: 1px solid #516f62;
+}
+
+
+
+/*home page*/
+.search-box{
+    text-align: center;
+    margin-top:10%;
+    margin-bottom: 20px;
+}
+.search-bar{
+    border:1px solid #8b9c80;
+    display: inline-block;
+    border-radius: 30px;
+}
+.search-bar input{
+    border:0;
+    background: transparent;
+    height:30px;
+    width:500px;
+    margin: 10px;
+    padding:5px 10px 5px 10px;
+    color:#516f62;
+    outline: none;
+    font-size: 1.2rem;
+}
+button{
+    margin: 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    border:1px solid #8b9c80;
+    padding:5px;
+    color:#8b9c80;
+    background: #eab7b7;
+    transition: background 1s, border 1s;
+}
+button:hover{
+    background: #fbbec6;
+    border:2px solid #8b9c80;
+}
+
+
+#superhero-card h4{
+     color: #8b9c80;
+}
+#superhero-card{
+    text-align: center;
+    
+}
+#superhero-card img{
+    border-radius: 10px;
+}
+.superhero-card-info{ 
+    margin:5px;
+    text-align: center;
+}
+
+
+/*superhero page*/
+#about{
+    display: flex;
+}
+
+.about-info{
+    margin-left:10%;
+    margin-top: 20px;
+}
+.superhero-img{
+    margin-top:5%;
+    margin-left: 50px;
+}
+.superhero-img img{
+    border-radius: 10px;
+}
+.about-superhero-img{
+    height:300px;
+    width:200px;
+    transition: 2s ease-in-out;
+}
+.about-superhero-img:hover{
+    height:400px;
+    width:300px;
+}
+
+
+
+
+
+/*favourite page*/
+#favourites{
+    display:flex;
+    align-content: space-between;
+    margin:30px;
+}
+#favourites div{
+    display: inline-block;
+    align-content: center;
+    margin:10px;
+}
+#favourites div div{
+    display: flex;
+    flex-direction: column;
+}
+#favourites div div h4{
+    display: none;
+}
+#favourites div div a img{
+    border-radius: 10px;
+}
+#favourites div div div{
+    display: none;
+    align-content: center;
+}
+
+

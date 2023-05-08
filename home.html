@@ -1,0 +1,81 @@
+<html>
+    <head>
+        <title>Home</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        
+        
+<!--        nav bar-->
+        <nav>
+            <div class="header">
+                <h1 id="header">SuperHero Search!</h1>
+            </div>
+            <div class="nav-items">
+                <a href="#home"><h3 id="home-nav">Home</h3></a>
+                <a href="#favourites"><h3 id="fav-nav">Favourites</h3></a>
+            </div>
+        </nav>
+        
+        
+        
+<!--        home page-->
+        <div id="home">
+            <div class="search-box">
+                <div class="search-bar">
+                    <input type="text">
+                </div>
+                <div>
+                    <button>Search</button>
+                </div>
+                <h4 id="not-found-info"></h4>
+            </div>
+               
+            <div id="superhero-card">
+                <div>
+                    <h4 id="fav-unfav-info"></h4>
+                <a href="#about"><img class="card-img"></a>
+                <div class="superhero-card-info">
+                    <b><p></p></b>
+                    <img id="fav-icon">
+                </div>
+                </div>
+            </div>
+        </div>
+        
+        
+        
+        
+<!--        about-superhero-->
+        <div id="about">
+            <div class="superhero-img">
+                <img class="about-superhero-img">
+            </div>
+            <div class="about-info">
+                <h3>Power Stats</h3>
+                <h4 id="strength"></h4>
+                <h4 id="intelligence"></h4>
+                <h4 id="speed"></h4>
+                <h4 id="power"></h4>
+                <h4 id="bio"></h4>
+            </div>
+        </div>
+        
+
+     
+        
+<!--        favourites-list-->
+        <div id="favourites">
+            
+        </div>
+        
+        
+        
+        
+        
+        <script src="superherofunctionality.js"></script>
+    </body>
+</html>
